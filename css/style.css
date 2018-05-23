@@ -1,0 +1,302 @@
+/* Global CSS */
+
+/*Goole Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+.no-padding{
+    padding: 0;
+}
+
+
+/* Navbar & Slider */
+
+.hero-bg{
+    background-image: url(../images/hero-bg.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    padding-top: 30px !important;
+}
+.active .nav-link{
+    color: #FDE524 !important
+}
+.nav-link{
+    color: #fff !important;
+    transition: all .4s ease;
+}
+.nav-link:hover{
+    color: #FDE524 !important
+}
+.nav-item i{
+    color: #fff;
+}
+.arrow-icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.arrow-icon i{
+    color: #FDE524;
+    cursor: pointer;
+}
+.arrow-icon p{
+    display: inline;
+    color: #FDE524;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+.heading{
+    background-image: url(../images/rect_shape.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.heading h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    position: relative;
+    top: -10px;
+    right: 130px;
+    padding: 75px 30px;
+}
+.heading a{
+    font-size: 15px;
+    font-weight: 700;
+    color: #FDE524;
+    border-bottom: 2px solid#FDE524;
+    position: relative;
+    right: 40px;
+    top: -60px;
+}
+/* Tour Section */
+
+.tour-content h2{
+    padding-top: 70px;
+    font-size: 31px;
+    font-weight: 700;
+    color: #002e5b;
+    text-transform: uppercase;
+}
+.tour-content h5{
+    margin: 20px 0;
+    color: #666666;
+    font-size: 21px;
+}
+.tour-content p{
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.custom-link{
+    font-size: 16px;
+    font-weight: 700;
+    color: #002e5b;
+    border-bottom: 2px solid#002e5b;
+    transition: all .4s ease;
+}
+.custom-link:hover{
+    color: #FDE628;
+    border-bottom: 2px solid#FDE628;
+}
+
+/* Global Asset Section */
+.global-asset-section{
+    background-color: #f4f4f4;
+    padding: 100px 0;
+}
+.global-asset-content h2{
+    font-size: 31px;
+    font-weight: 700;
+    color: #002e5b;
+    text-transform: uppercase;
+}
+.global-asset-content h5{
+    margin: 30px 0;
+    color: #666666;
+    font-size: 21px;
+}
+.global-asset-content p{
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.custom-link{
+    font-size: 16px;
+    font-weight: 700;
+    color: #002e5b;
+    border-bottom: 2px solid#002e5b;
+    transition: all .4s ease;
+}
+.custom-link:hover{
+    color: #FDE628;
+    border-bottom: 2px solid#FDE628;
+}
+
+/* Contact Now Section */
+
+.contact-now-section{
+    background-color: #002e5b;
+    padding: 23px 0;
+}
+.contact-now-section p{
+    color: #fff;
+    margin: 10px 0px 0px 0;
+}
+.contact-now-btn{
+    border: none;
+    font-weight: 700;
+    background-color: #FDE628;
+}
+
+/* Service Section Start */
+
+.service-section{
+    padding: 100px 0;
+}
+.service-heading h2{
+    font-size: 31px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #002e5b;
+}
+.service-heading p{
+    margin: 25px 0px 50px 0;
+    font-size: 21px;
+    color: #666666;
+}
+.boxes h4{
+    margin: 35px 0;
+    font-size: 21px;
+    font-weight: 700;
+    color: #002e5b;
+}
+
+/* Counter Up Section Start */
+.counter-up-section{
+    background-color: #002e5b;
+    padding: 120px 0;
+}
+
+
+.col-md-3 {
+  text-align: center;
+  padding-bottom: 0px;
+}
+.counter {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+.counter,
+.counter-tittle p{
+    color: #fff;
+    margin-bottom: 0;
+}
+
+/* Video Section Start */
+
+.video-content h2{
+    padding-top: 80px;
+    font-size: 31px;
+    font-weight: 700;
+    color: #002e5b;
+    text-transform: uppercase;
+}
+.video-content h5{
+    margin: 25px 0;
+    color: #666666;
+    font-size: 21px;
+}
+
+/* Testimonial Section Start */
+.carousel-caption {
+    padding-bottom: 100px !important;
+}
+
+/* Contact Us Section Start */
+
+.boxes-image{
+    background-color: #ffffff;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.16), 0 3px 4px rgba(0,0,0,0.23);
+    
+}
+.boxes-image h4{
+    padding-left: 40px;
+    margin: 40px 0px 20px 0px;
+    text-transform: uppercase;
+}
+.contact-icon{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.fa-map-marker-alt{
+    position: absolute;
+    top: 0;
+}
+.contact-icon li{
+    padding-left: 40px;
+    color: #002e5b;
+}
+
+.contact-icon p{
+    display: inline-block;
+    padding-left: 20px;
+}
+.contact-icon .speace{
+    padding-left: 40px;
+}
+
+/* Footer Section Start */
+
+.footer-section{
+    background-color: #002A5A;
+    padding: 20px;
+}
+.left-side p{
+    color: #fff;
+    margin: 0;
+}
+.left-side a{
+    color: #FDE628;
+    padding-left: 10px;
+}
+.social-icon{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social-icon li{
+    display: inline-block
+}
+.social-icon i{
+    color: #fff;
+    padding-left: 10px;
+    transition: all .4s ease;
+}
+.social-icon i:hover{
+    color: #FDE628;
+}
+
+
+
+
+
+
+
+
+

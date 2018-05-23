@@ -1,0 +1,144 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+.tour-content h2 {
+    font-size: 28px;
+}
+.global-asset-content h2 {
+    font-size: 28px;
+}
+.global-asset-content p {
+    margin-bottom: 18px;
+}
+.contact-now-section p {
+    font-size: 14px;
+}
+.video-content h2 {
+    padding-top: 70px;
+    font-size: 28px;
+}
+.video-content h5 {
+    font-size: 18px;
+}
+.carousel-caption {
+    padding-bottom: 50px !important;
+}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.heading {
+    right: 50px;
+}
+.tour-content h2 {
+    font-size: 18px;
+    padding-top: 50px;
+}
+.tour-content h5 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.tour-content p {
+    font-size: 12px;
+}
+.video-content h2 {
+    padding-top: 50px;
+    font-size: 18px;
+}
+.video-content h5 {
+    margin: 16px 0;
+    font-size: 16px;
+}
+.video-content p {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.carousel-caption {
+    padding-bottom: 40px !important;
+}
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+.heading {
+    display: none;
+}
+.resposive-speace {
+    padding: 50px 0;
+}
+.global-asset-section {
+    padding: 60px 0;
+}
+.global-asset-content h2 {
+    font-size: 28px;
+    padding-top: 40px;
+}
+.global-asset-content p {
+    margin-bottom: 24px;
+}
+.contact-now-section p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-now-btn {
+    margin: 0 auto;
+    display: block;
+}
+.service-section {
+    padding: 60px 0;
+}
+.boxes h4 {
+    margin: 24px 0;
+    text-align: center;
+}
+.boxes p {
+    text-align: center;
+}
+.video-section {
+    padding-bottom: 50px;
+}
+.carousel-caption {
+    padding-bottom: 0px !important;
+}
+.w-100 {
+    height: 350px !important;
+}
+.carousel-caption p{
+    font-size: 12px;
+    line-height: 20px;
+}
+.boxes-image h4 {
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.contact-icon li {
+    padding-left: 15px;
+}
+.contact-icon .speace {
+    padding-left: 25px;
+}
+.contact-icon p {
+    padding-left: 14px;
+}
+.left-side p {
+    padding-bottom: 6px;
+}
+.responsive-box-seace {
+    padding-bottom: 20px;
+}
+.resposive-center {
+    margin: 0 auto;
+    display: block;
+}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.heading {
+    display: unset;
+    right: 60px;
+}
+.carousel-caption {
+    padding-bottom: 60px !important;
+}
+}
